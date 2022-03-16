@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10232" started-at="2022-03-16T08:21:38Z" finished-at="2022-03-16T08:21:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10232" started-at="2022-03-16T08:21:38Z" finished-at="2022-03-16T08:21:48Z">
+      <class name="RESTproject.ProjectWork">
+        <test-method status="PASS" signature="createuser(org.testng.ITestContext, org.testng.ITestContext)[pri:0, instance:RESTproject.ProjectWork@78e117e3]" name="createuser" duration-ms="4489" started-at="2022-03-16T08:21:38Z" finished-at="2022-03-16T08:21:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9e68d0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9e68d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method status="PASS" signature="updateuser(org.testng.ITestContext, org.testng.ITestContext)[pri:0, instance:RESTproject.ProjectWork@78e117e3]" name="updateuser" duration-ms="1379" started-at="2022-03-16T08:21:43Z" depends-on-methods="RESTproject.ProjectWork.createuser" finished-at="2022-03-16T08:21:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9e68d0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9e68d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateuser -->
+        <test-method status="PASS" signature="userLogin(org.testng.ITestContext, org.testng.ITestContext)[pri:0, instance:RESTproject.ProjectWork@78e117e3]" name="userLogin" duration-ms="1390" started-at="2022-03-16T08:21:44Z" depends-on-methods="RESTproject.ProjectWork.createuser" finished-at="2022-03-16T08:21:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9e68d0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9e68d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="userLogout(org.testng.ITestContext, org.testng.ITestContext)[pri:0, instance:RESTproject.ProjectWork@78e117e3]" name="userLogout" duration-ms="1430" started-at="2022-03-16T08:21:45Z" depends-on-methods="RESTproject.ProjectWork.userLogin" finished-at="2022-03-16T08:21:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9e68d0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9e68d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+        <test-method status="PASS" signature="deleteuser(org.testng.ITestContext)[pri:0, instance:RESTproject.ProjectWork@78e117e3]" name="deleteuser" duration-ms="1500" started-at="2022-03-16T08:21:47Z" depends-on-methods="RESTproject.ProjectWork.userLogout" finished-at="2022-03-16T08:21:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d9e68d0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuser -->
+      </class> <!-- RESTproject.ProjectWork -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
